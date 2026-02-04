@@ -1,0 +1,11 @@
+class Api_BD:
+    def __int__(self):
+        self.Api_datos = []
+        
+    def guardar_empleado(self,obj_nuevo_empleado):
+        self.Api_datos.append(obj_nuevo_empleado)
+        
+    def imprimir_Api(self):
+        for empleado in self.Api_datos:
+            print(empleado)
+        
